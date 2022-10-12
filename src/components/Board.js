@@ -1,10 +1,8 @@
-import { useState } from "react"
-import { boardDefault } from "../Words"
-
+import { useContect } from "react"
+import { AppContext } from "../App"
 import Letter from "./Letter"
 
 function Board() {
-    const [board, useBoard] = useState(boardDefault)
   return (
     <div className="board">
         <div className="row">
