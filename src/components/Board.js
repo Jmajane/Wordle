@@ -1,5 +1,3 @@
-import { useContect } from "react"
-import { AppContext } from "../App"
 import Letter from "./Letter"
 
 function Board() {

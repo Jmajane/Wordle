@@ -5,7 +5,6 @@ import Keyboard from "./components/Keyboard"
 import { createContext, useState } from "react"
 import { boardDefault } from "./Words"
 
-
 export const AppContext = createContext();
 
 function App() { 
@@ -15,7 +14,6 @@ function App() {
       <nav>
         <h1>Wordle</h1>
       </nav>
-
       <AppContext.Provider value={{ board, setBoard }}>
         <Board />
         <Keyboard />
