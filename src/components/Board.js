@@ -4,7 +4,14 @@ import { boardDefault } from "../Words"
 function Board() {
     const [board, useBoard] = useState(boardDefault)
   return (
-    <div>Board</div>
+    <div className="board">
+        <div className="row"> </div>
+        <div className="row"> </div>
+        <div className="row"> </div>
+        <div className="row"> </div>
+        <div className="row"> </div>
+        <div className="row"> </div>
+    </div>
   )
 }
 
